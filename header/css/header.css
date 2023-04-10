@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 *,
 *::before,
 *::after
@@ -14,18 +17,14 @@
     text-decoration: none;
 }
 
-body
-{
-    background: #0A122E !important;
-}
-
 .navigation-block
 {
     width: 100%;
     height: 75px;
 
-    background: rgba(22, 30, 57, 0.5);
-    backdrop-filter: blur(54px);
+    background: rgba(22,30,57,.9);
+
+    position: fixed;
 }
 
 .container
@@ -36,12 +35,108 @@ body
     margin: 0 auto;
 
     display: flex;
+    justify-content: space-between;
 }
 
 .navigation-block .navigation_left__item-block
 {
-    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-block .navigation_left__item-block .navigation_logo__item-block .image-logo
+{
+    width: 56px;
+}
+
+.navigation-block .navigation_left__item-block .navigation_logo__item-block a
+{
+    margin-right: 30px;
+}
+
+.navigation-block .navigation_left__item-block .navigation_choise_language__item-block .language-button
+{
+    background-color: transparent;
+    border: transparent;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.35);
+
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+
+    cursor: pointer;
+}
+
+.navigation-block .navigation_left__item-block .navigation_choise_language__item-block .language-button.active
+{
+    font-size: 14px;
+    color: white;
+}
+
+
+.navigation-block .navigation_center__item-block
+{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-block .navigation_center__item-block .navigation-button
+{
+    border: transparent;
+    background: transparent;
+
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+
+    padding: 0;
+    margin-left: 25px;
+    margin-right: 25px;
+
+    cursor: pointer;
+    transition: 0.2s ease all;
+}
+
+.navigation-block .navigation_center__item-block .navigation-button:hover
+{
+    color: #FFE001;
+}
+
+.navigation-block .navigation_right__item-block
+{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-block .navigation_right__item-block .card-button
+{
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFE001;
 
     display: flex;
     align-items: center;
+
+    margin-right: 30px;
+}
+
+.navigation-block .navigation_right__item-block .card-button img
+{
+    margin-right: 8px;
+}
+
+.navigation-block .navigation_right__item-block .purshare-button
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+
+    background: #FFE001;
+
+    border-radius: 4px;
+
+    padding: 13px 25px 13px 25px;
 }
