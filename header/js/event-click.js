@@ -16,6 +16,5 @@ links.forEach(item =>
         {
             document.querySelector('.navigation-button.navigation_active').classList.remove('navigation_active')
             item.classList.add('navigation_active')
-            item.classList.remove('after')
         })
     })
