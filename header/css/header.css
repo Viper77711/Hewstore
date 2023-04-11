@@ -150,7 +150,7 @@
     align-items: center;
 }
 
-.navigation-block .navigation_right__item-block .card-button
+.navigation-block .navigation_right__item-block .cart-button
 {
     font-size: 14px;
     font-weight: 600;
@@ -164,12 +164,12 @@
     transition: 0.2s ease all;
 }
 
-.navigation-block .navigation_right__item-block .card-button:hover
+.navigation-block .navigation_right__item-block .cart-button:hover
 {
     opacity: .7;
 }
 
-.navigation-block .navigation_right__item-block .card-button img
+.navigation-block .navigation_right__item-block .cart-button img
 {
     margin-right: 8px;
 }
