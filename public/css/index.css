@@ -27,3 +27,68 @@ body
 
     margin: 0 auto;
 }
+
+.left-block
+{
+    width: 50%;
+}
+
+.main-text-box
+{
+    margin-top: 210px;
+}
+
+.main-text
+{
+    font-weight: 600;
+    font-size: 48px;
+    color: #FFE001;
+}
+
+.description-text-box
+{
+    margin-top: 22px;
+}
+
+.description-text
+{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.button-box
+{
+    margin-top: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.purshare-button
+{
+    font-size: 16px;
+    font-weight: 600;
+    color: #212121;
+
+    background: #FFE001;
+
+    border-radius: 4px;
+
+    padding: 13px 25px 13px 25px;
+
+    transition: 0.2s ease all;
+}
+
+.purshare-button:hover
+{
+    opacity: .7;
+}
+
+.more-details-button
+{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFE001;
+    margin-right: 3px;
+}
