@@ -35,13 +35,9 @@ body
 .wrapper
 {
     background: url(../img/bg.jpg) no-repeat bottom center;
-
-    height: 2000px;
 }
 
 .wrapper .main
 {
     background: url(../img/bg.png) no-repeat top center;
-
-    height: 1000px;
 }
